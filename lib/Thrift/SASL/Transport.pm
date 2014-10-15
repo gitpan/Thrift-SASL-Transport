@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Data::Dumper;
 
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 # Nasty hack to make the Thrift libs handle the extra 4-bytes
 # header put by GSSAPI in front of unencoded (auth only) replies
@@ -214,7 +214,7 @@ sub readAll {
 
 1;
 
-#ABSTRACT: Client library for Hadoop WebHDFS and HttpFs, with Kerberos support
+#ABSTRACT: Thrift Transport allowing Kerberos auth/encryption through GSSAPI
 
 __END__
 
@@ -224,11 +224,11 @@ __END__
 
 =head1 NAME
 
-Thrift::SASL::Transport - Client library for Hadoop WebHDFS and HttpFs, with Kerberos support
+Thrift::SASL::Transport - Thrift Transport allowing Kerberos auth/encryption through GSSAPI
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 

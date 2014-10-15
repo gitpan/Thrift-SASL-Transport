@@ -1,10 +1,10 @@
 # NAME
 
-Thrift::SASL::Transport - Client library for Hadoop WebHDFS and HttpFs, with Kerberos support
+Thrift::SASL::Transport - Thrift Transport allowing Kerberos auth/encryption through GSSAPI
 
 # VERSION
 
-version 0.001
+version 0.002
 
 # SYNOPSIS
 

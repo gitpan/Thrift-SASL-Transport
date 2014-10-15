@@ -1,5 +1,5 @@
 ---
-abstract: 'Client library for Hadoop WebHDFS and HttpFs, with Kerberos support'
+abstract: 'Thrift Transport allowing Kerberos auth/encryption through GSSAPI'
 author:
   - 'David Morel <david.morel@amakuru.net>'
 build_requires:
@@ -19,4 +19,4 @@ requires:
   constant: '0'
   strict: '0'
   warnings: '0'
-version: '0.001'
+version: '0.002'

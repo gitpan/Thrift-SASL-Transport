@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution Thrift-SASL-Transport,
-version 0.001:
+version 0.002:
 
-  Client library for Hadoop WebHDFS and HttpFs, with Kerberos support
+  Thrift Transport allowing Kerberos auth/encryption through GSSAPI
 
 This software is copyright (c) 2014 by David Morel.
 

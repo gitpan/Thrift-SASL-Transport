@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker ;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Client library for Hadoop WebHDFS and HttpFs, with Kerberos support",
+  "ABSTRACT" => "Thrift Transport allowing Kerberos auth/encryption through GSSAPI",
   "AUTHOR" => "David Morel <david.morel\@amakuru.net>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
@@ -29,7 +29,7 @@ my %WriteMakefileArgs = (
   "TEST_REQUIRES" => {
     "Test::More" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
