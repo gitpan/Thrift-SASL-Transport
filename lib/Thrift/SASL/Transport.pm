@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Data::Dumper;
 
-our $VERSION = '0.002'; # VERSION
+our $VERSION = '0.003'; # VERSION
 
 # Nasty hack to make the Thrift libs handle the extra 4-bytes
 # header put by GSSAPI in front of unencoded (auth only) replies
@@ -39,7 +39,7 @@ sub new {
     return bless {
         _transport => $transport,
         _sasl      => $sasl,
-        _debug     => $debug,
+        _debug     => $debug || 0,
     }, $class;
 }
 
@@ -228,7 +228,7 @@ Thrift::SASL::Transport - Thrift Transport allowing Kerberos auth/encryption thr
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
